@@ -1,0 +1,10 @@
+# .env holds the Telegram bot token; it stays on the phone only.
+.env
+*.log
+# Model files are about 1 GB; setup.sh downloads them on the phone.
+*.gguf
+node_modules/
+# Downloaded sources for tools/build-verses.js
+.cache/
+# Scripts and voiceovers the bot makes on the phone
+phone-chat/out/

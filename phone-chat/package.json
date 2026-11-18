@@ -1,0 +1,9 @@
+{
+  "name": "phone-chat",
+  "private": true,
+  "description": "Telegram bot for the AI model on the phone. Only dependency: sherpa-onnx's WebAssembly build for the voice (no native code, no install scripts).",
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "sherpa-onnx": "1.13.8"
+  }
+}

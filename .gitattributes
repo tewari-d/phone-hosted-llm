@@ -1,0 +1,2 @@
+# Everything runs on the phone (Termux); Windows line endings would break the shell scripts.
+* text=auto eol=lf
